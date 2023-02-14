@@ -1,0 +1,154 @@
+/****************************************************** Sections *******************************************************************/
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/****************************************************** Containers ****************************************************************/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/**************************************************Tag Selectors******************************************************************/
+body {
+  font-family: "Montserrat-Black", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/***************************************************** Title section *********************************************************************/
+#title .container-fluid {
+  /* #000 = black */
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*********** Navigation Bar ****************************/
+.navbar-brand {
+  font-size: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/************************************************************* Features Section ****************************************************/
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+.features-heading {
+  font-weight: 800;
+}
+.feature-box {
+  padding: 5%;
+}
+.features-font-awesome {
+  color: #ef8172;
+  /* font-size: 300%; to increase size we can use font awesome class i.e "fa-4x" */
+  margin: 1rem;
+}
+.features-font-awesome:hover {
+  color: #ff4c68;
+}
+
+/************************************************************* Testimonial Section ************************************************/
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/************************************************************** Press Section ****************************************************/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/************************************************************* Pricing Section **************************************************/
+#pricing {
+  padding: 100px;
+}
+.pricing-heading,
+.card-body-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.pricing-card-header-heading {
+  font-weight: 600;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*********************************************************** CTA Section *******************************************************/
+
+/*********************************************************** Footer Section ***************************************************/
+.social-icon {
+  margin: 20px 10px;
+}
+
+/************************************************************** MEDIA QUERY BREAKPOINTS *******************************************/
+@media (max-width: 990px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .nav-mobile {
+    text-align: right;
+  }
+}
